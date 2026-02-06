@@ -12,7 +12,9 @@ Este comando sirve para instalar el servicio de dovecot, que es para el protocol
 ### Configuraciones necesarias
 Para empezar la configuracion de nuestro servidor cambiamos el nombre de dominio porque sera necesario para comunicarnos en la red y si quieres establecer el servidor de correo en una red LAN sera necesario tener un servidor de DNS propio que nos permita comunicarnos con el servidor.
 Para cambiar el nombre de dominio del servidor:
-```sudo hostnamectl set-hostname mail.server```
+```
+sudo hostnamectl set-hostname mail.server
+```
 En nuestro caso nuestro servidor lo pusimos como "mosfraayo.local".
 Editamos en el archivo /etc/hosts:
 ```127.0.0.1   mail.server```
