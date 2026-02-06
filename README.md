@@ -67,6 +67,5 @@ Y tambien para que se inicien cuando el sistema se vuelva a encender
 Ahora abrimas la interfaz grafica de thunderbird y realizamos las siguiente configuraciones para conectarnos a el servidor.
 Usar siempre el nombre de dominio del servidor para cualquier configuracion y para el protocolo imap usar el puerto 143 sin aplicar seguridad y con autenticacion simple, y para SMTP usar el puerto 25 sin seguridad y sin autenticacion.
 Te logueas usando uno de los usuarios del sistema de correo y envias un mensaje hacia ti mismo o hacia otro para ver que funciona.
-<img width="1024" height="528" alt="image" src="https://github.com/user-attachments/assets/1ba29688-37ae-482b-8a5c-c876303696d7" />
 ### Comentarios Finales
 Puede que haya errores cuando se configure dovecot para que se envie correos de un lado a otro pero el servidor se puede testear usando telnet para ver el que el protocolo de envio funcione correctamente pero si algo falla en dovecot puede que sea porque el sistema no sabe donde dejar los correos y los deja en un lugar por defecto.
