@@ -62,7 +62,7 @@ sudo adduser ayoub
 Ahora reiniciamos los servicios para que la configuracion se aplique cuando se vuelvan a iniciar y despues probaremos que todo haya funcionado.
 ```systemctl restart postfix dovecot```
 Y tambien para que se inicien cuando el sistema se vuelva a encender
-```systemctl enable postfisx dovecot```
+```systemctl enable postfix dovecot```
 ### Pruebas finales
 Ahora abrimas la interfaz grafica de thunderbird y realizamos las siguiente configuraciones para conectarnos a el servidor.
 Usar siempre el nombre de dominio del servidor para cualquier configuracion y para el protocolo imap usar el puerto 143 sin aplicar seguridad y con autenticacion simple, y para SMTP usar el puerto 25 sin seguridad y sin autenticacion.
