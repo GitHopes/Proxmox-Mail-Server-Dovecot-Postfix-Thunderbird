@@ -30,7 +30,7 @@ inet_protocols = ipv4
 mydestination = $myhostname, localhost.$mydomain, localhost
 home_mailbox = Maildir/
 ```
-Ahora terminando con la configuracion de Postfix pasamos a la configuracion de Dovecot para que coincida con Dovecot y que use Maildir como buzon para funcionar.
+Ahora terminando con la configuracion de Postfix pasamos a la configuracion de Dovecot para que coincida con Postfix y que use Maildir como buzon para funcionar.
 Para eso editamos el archivo /etc/dovecot/conf.d/10-mail.conf:
 ```
 mail_location = maildir:~/Maildir
