@@ -18,7 +18,9 @@ sudo hostnamectl set-hostname mail.server
 En nuestro caso nuestro servidor lo pusimos como "mosfraayo.local".
 Editamos en el archivo /etc/hosts:
 ```127.0.0.1   mail.server```
+
 Esto nos permite comunicarnos con nosotros mismos desde el servidor para el dominio mail.server, util para realizar pruebas de funcionamiento desde nuestro propio servidor.
+
 Ahora ajustamos nuestro Postfix para que concuerde con dovecot y con nuestro nombre de servidor.
 Este es un ejemplo de la configuracion de Postfix en /etc/postfix/main.cf:
 ```
