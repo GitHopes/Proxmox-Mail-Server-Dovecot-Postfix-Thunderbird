@@ -6,7 +6,7 @@ Creacion de un servidor de mail local con Dovecot, Postfix y Thunderbird dentro 
 Descargamos los paquetes necesarios para la creacion y configuracion de nuestro servidor de correo dentro de Debian Trixie.
 Esta es la lista de repositorios necesarios para instalar.
 ```bash
-sudo apt install postfix dovecot-core dovecot-imap mailutils thunderbird -y
+sudo apt install postfix dovecot-core dovecot-imapd mailutils thunderbird -y
 ```
 Este comando sirve para instalar el servicio de dovecot, que es para el protocolo IMAP, el servicio postfix, que se encarga de enviar, recibir y enrutar correos electronicos, la herramienta de linea de comandos mailutils, que es para gestionar correos por la linea de comandos en Linux, y el cliente grafico thunderbird para gestionar los correos de manera grafica y sencilla.
 ### Configuraciones necesarias
